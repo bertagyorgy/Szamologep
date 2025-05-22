@@ -1,0 +1,67 @@
+﻿<Window x:Class="_20250521.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20250521"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="400">
+    <Grid>
+        <StackPanel>
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="Kijelzo" Grid.Row="0" Grid.Column="0" FontSize="40" Height="70" HorizontalAlignment="Stretch" TextAlignment="Left" IsReadOnly="True" TextChanged="Kijelzo_TextChanged"></TextBox>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Content="%" Click="Szazalek"/>
+                <Button Grid.Row="0" Grid.Column="1" Content="CE" Click="CE"/>
+                <Button Grid.Row="0" Grid.Column="2" Content="C" Click="C"/>
+                <Button Grid.Row="0" Grid.Column="3" Content="Del" Click="Torles"/>
+
+                <Button Grid.Row="1" Grid.Column="0" Content="1/x" Click="Reciprok"/>
+                <Button Grid.Row="1" Grid.Column="1" Content="²" Click="Negyzet"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="√" Click="Gyok"/>
+                <Button Grid.Row="1" Grid.Column="3" Content="÷" Click="Muvelet"/>
+
+                <Button Grid.Row="2" Grid.Column="0" Content="7" Click="Szam"/>
+                <Button Grid.Row="2" Grid.Column="1" Content="8" Click="Szam"/>
+                <Button Grid.Row="2" Grid.Column="2" Content="9" Click="Szam"/>
+                <Button Grid.Row="2" Grid.Column="3" Content="×" Click="Szorzas"/>
+
+                <Button Grid.Row="3" Grid.Column="0" Content="4" Click="Szam"/>
+                <Button Grid.Row="3" Grid.Column="1" Content="5" Click="Szam"/>
+                <Button Grid.Row="3" Grid.Column="2" Content="6" Click="Szam"/>
+                <Button Grid.Row="3" Grid.Column="3" Content="-" Click="Szorzas"/>
+
+                <Button Grid.Row="4" Grid.Column="0" Content="1" Click="Szam"/>
+                <Button Grid.Row="4" Grid.Column="1" Content="2" Click="Szam"/>
+                <Button Grid.Row="4" Grid.Column="2" Content="3" Click="Szam"/>
+                <Button Grid.Row="4" Grid.Column="3" Content="+" Click="Osszeadas"/>
+
+                <Button Grid.Row="5" Grid.Column="0" Content="±" Click="Elojel"/>
+                <Button Grid.Row="5" Grid.Column="1" Content="0" Click="Szam"/>
+                <Button Grid.Row="5" Grid.Column="2" Content="," Click="Tizedes"/>
+                <Button Grid.Row="5" Grid.Column="3" Content="=" Click="Egyenlo" Background="DarkBlue" Foreground="White"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

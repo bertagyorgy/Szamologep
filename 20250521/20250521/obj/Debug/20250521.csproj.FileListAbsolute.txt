@@ -1,0 +1,15 @@
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521.csproj.AssemblyReference.cache
+Z:\Asztali alk\20250521\20250521\obj\Debug\MainWindow.g.cs
+Z:\Asztali alk\20250521\20250521\obj\Debug\App.g.cs
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521_MarkupCompile.cache
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521_MarkupCompile.lref
+Z:\Asztali alk\20250521\20250521\bin\Debug\20250521.exe.config
+Z:\Asztali alk\20250521\20250521\bin\Debug\20250521.exe
+Z:\Asztali alk\20250521\20250521\bin\Debug\20250521.pdb
+Z:\Asztali alk\20250521\20250521\obj\Debug\MainWindow.baml
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521.g.resources
+Z:\Asztali alk\20250521\20250521\obj\Debug\_20250521.Properties.Resources.resources
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521.csproj.GenerateResource.cache
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521.csproj.CoreCompileInputs.cache
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521.exe
+Z:\Asztali alk\20250521\20250521\obj\Debug\20250521.pdb
